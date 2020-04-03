@@ -12,7 +12,7 @@ def initialize(name)
 end
 
 def add_student=(student, grade)
-  ROSTER << {student, grade}
+  ROSTER << [student, grade]
 
 end
 
